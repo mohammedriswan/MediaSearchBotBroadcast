@@ -27,11 +27,11 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="നിങ്ങൾക്ക് ഈ ബോട്ട് വഴി സിനിമ ലഭിക്കണമെങ്കിൽ താഴെ കാണുന്ന '🔸 JOIN CHANNEL 🔸' എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്ത് ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം  'Try again' എന്ന ബട്ടൻ ക്ലിക്ക് ചെയ്യുക",
+                    text="നിങ്ങൾക്ക് ഈ ബോട്ട് വഴി സിനിമ ലഭിക്കണമെങ്കിൽ താഴെ കാണുന്ന '♻️ JOIN CHANNEL ♻️' എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്ത് ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം  'Try again' എന്ന ബട്ടൻ ക്ലിക്ക് ചെയ്യുക",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🔸 JOIN CHANNEL 🔸", url=invite_link.invite_link)
+                                InlineKeyboardButton("♻️ JOIN CHANNEL ♻️", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -86,7 +86,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("g", url=invite_link.invite_link)
                     ]
                 ]
             )
