@@ -82,11 +82,11 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="നിങ്ങൾക്ക് ഈ ബോട്ട് വഴി സിനിമ ലഭിക്കണമെങ്കിൽ താഴെ കാണുന്ന '♻️ JOIN CHANNEL ♻️' എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്ത് ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം വീണ്ടും റിക്വസ്റ്റ് ചെയ്യുക",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("g", url=invite_link.invite_link)
+                        InlineKeyboardButton("♻️ JOIN CHANNEL ♻️", url=invite_link.invite_link)
                     ]
                 ]
             )
