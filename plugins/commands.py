@@ -66,8 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Group', url='https://t.me/Cinema_Tv_Group'),
-                        InlineKeyboardButton('Channel', url='https://t.me/CinemaTvofficial')
+                        InlineKeyboardButton('Updates Channel', url='https://t.me/Emma_Stone_News')
                     ]
                     ]
                 await bot.send_cached_media(
