@@ -195,4 +195,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Channel', url='https://t.me/Emma_Stone_News')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/Zayn_Stuff'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>It's very easy to use me.\nJust add me to your group & make me admin. That's it</b> ♻️\n \n<b>If you want to add your files in my database, please contact my <a href='https://t.me/Zayn_LaiQ'>creator</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
