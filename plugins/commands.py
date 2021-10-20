@@ -191,8 +191,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Channel', url='https://t.me/CinemaTvofficial'),
-            InlineKeyboardButton('Group', url='https://t.me/Cinema_Tv_Group')
+            InlineKeyboardButton('Creator', url='https://t.me/Zayn_Laiq'),
+            InlineKeyboardButton('Channel', url='https://t.me/Emma_Stone_News')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/Zayn_Stuff'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
