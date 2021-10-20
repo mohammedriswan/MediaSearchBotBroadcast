@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Group', url='https://t.me/Cinema_Tv_Group'),
-                        InlineKeyboardButton('Creator', url='https://t.me/Zayn_Laiq')
+                        InlineKeyboardButton('Channel', url='https://t.me/CinemaTvofficial')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,11 +99,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("Creator", url="https://t.me/Zayn_LaiQ"),
+                        InlineKeyboardButton("How to use Me ❕", url="https://t.me/subin_works/122")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("➕ Add me to your group", url="https://t.me/Emma_Stone_Robot?startgroup=true")
                     ]
                 ]
             )
