@@ -99,7 +99,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Creator", url="https://t.me/Zayn_LaiQ"),
-                        InlineKeyboardButton("How to use Me ❕", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("How to use Me ❕", url="https://t.me/Emma_Stone_News")
                     ],
                     [
                         InlineKeyboardButton("➕ Add me to your group", url="https://t.me/Emma_Stone_Robot?startgroup=true")
